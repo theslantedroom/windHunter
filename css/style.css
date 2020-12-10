@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Trade Winds', cursive;
+}
+
+body {
+	overflow: hidden;
+	background: rgb(114, 114, 114);
+}
+
+.navSingleButton{
+	font-size: 30px;
+	background: -moz-linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgba(255,214,0,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgba(255,214,0,1) 100%);
+	background: linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgba(255,214,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eaf2ff",endColorstr="#ffd600",GradientType=1);
+	position: sticky;
+	top: 0px;
+	text-align: center;
+	padding: 20px;
+	height: 80px;
+	transition: all 200ms;
+}
+.navSingleButton:hover{
+	background: -moz-linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgb(255, 153, 0) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%,rgb(255, 153, 0) 100%);
+	background: linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgb(255, 153, 0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eaf2ff",endColorstr="#ffd600",GradientType=1);
+}
+
+.navSingleButton:hover{
+	background-color: rgba(0, 255, 255, 0.74);
+	cursor: pointer;
+}
+
+.navItem{
+	font-size: 20px;
+	background-color:#00bf9a;
+	position: sticky;
+	overflow: hidden;
+	top: 0px;
+	text-align: center;
+	padding: 0px;
+	height: 0px;
+	transition: all 200ms;
+	line-height: 2;
+	cursor: pointer;
+}
+.navItem:hover{
+	background-color:rgb(41, 231, 193);
+}
+
+.navSingleButtonOpen{
+	background:#00bf9a;
+	height: 50px;
+}
+
+.banner{
+	overflow: hidden;
+	color: #27dfbd;
+	font-family: 'Trade Winds', cursive;
+	font-size: 50px;
+	text-align: center;
+	background-position:center top;
+	background-image: url('../img/banner3.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid#00bf9a;
+	height: 15vw;
+	max-height: 100px;
+	margin: auto;
+	padding: 3px;
+	transition: all 200ms;
+}
+.mouseOverBanner{
+	color: #b5e0d8;
+	font-size: 60px;
+}
+
+.picGallery{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.picGallery img{
+	width: 50vw;
+	min-width: 350px;
+}
+.weather{
+	display: flex;
+	height: 300px;
+	justify-content: space-around;
+	margin: 10px;
+}
