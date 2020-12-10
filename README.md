@@ -1,2 +1,3 @@
-# fractalForest
-Code fractals
+# WindHunter
+
+design of navbar 
