@@ -20,7 +20,6 @@ body {
 	background-image: url('../img/banner3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	border: 1px solid#00bf9a;
 	height: 15vw;
 	max-height: 150px;
 	margin: auto;
@@ -97,7 +96,7 @@ body {
 	height: auto;
 }
 .gallerytext{
-	font-size: 20px;
+	font-size: 25px;
 }
 .weather{
 	display: flex;
