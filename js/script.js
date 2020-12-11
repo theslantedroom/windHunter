@@ -43,10 +43,11 @@
     });
 
 
+
     // PICS
      createHTML('div', "picGallery");
      const picGallery = document.getElementsByClassName("picGallery")[0];
-     picGallery.innerHTML = '<img src="img/img1.jpg" alt="">';
+     picGallery.innerHTML = '<img src="img/img1.JPG" alt="">';
      
 
     // Weather
