@@ -6,7 +6,7 @@
 }
 
 body {
-	overflow: hidden;
+
 	background: rgb(114, 114, 114);
 }
 
@@ -83,17 +83,20 @@ body {
 
 .picGallery{
 	width: 100%;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	background-size: cover;
-	background-repeat: no-repeat;
+
+
+	/* line-height: 0; */
+	-webkit-column-count: 2;
+	-webkit-column-gap:   0px;
+	-moz-column-count:    2;
+	-moz-column-gap:      0px;
+	column-count:         2;
+	column-gap:           0px;  
+
 }
 .picGallery img{
-	width: 50vw;
-	min-width: 350px;
+	width: 100%;
+	height: auto;
 }
 .weather{
 	display: flex;
