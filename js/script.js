@@ -42,7 +42,11 @@
           }  
     });
 
-
+    // Windy
+    createHTML('div', "windy");
+    const windy = document.getElementsByClassName("windy")[0];
+    windy.id = "windy";
+    
     // PICS
      createHTML('div', "picGallery");
      const picGallery = document.getElementsByClassName("picGallery")[0];
@@ -59,6 +63,9 @@
 
     createHTML('div', "footer");
 }());
+
+
+// windy
 
 
 
