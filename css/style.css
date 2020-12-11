@@ -11,6 +11,7 @@ body {
 }
 
 .navSingleButton{
+	color: #114b3f;
 	font-size: 30px;
 	background: -moz-linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgba(255,214,0,1) 100%);
 	background: -webkit-linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgba(255,214,0,1) 100%);
@@ -36,6 +37,7 @@ body {
 }
 
 .navItem{
+	color: rgb(253, 227, 98);
 	font-size: 20px;
 	background-color:#00bf9a;
 	position: sticky;

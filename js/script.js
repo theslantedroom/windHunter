@@ -35,7 +35,7 @@
     createMenuItem('nav', "navItem", 'Photos');
     createMenuItem('nav', "navItem", 'Shop');
 
-    navSingleButton.innerHTML = '<span><i class="fas fa-caret-square-down"></i> <i class="fas fa-wind"></i></span>';
+    navSingleButton.innerHTML = '<span><i class="fas fa-bars"></i> <i class="fas fa-wind"></i></span>';
     navSingleButton.addEventListener('click', function(){
         for (i = 0; i < 3; i++) {
             document.getElementsByClassName("navItem")[i].classList.toggle('navSingleButtonOpen');
@@ -43,12 +43,13 @@
     });
 
 
-
     // PICS
      createHTML('div', "picGallery");
      const picGallery = document.getElementsByClassName("picGallery")[0];
-     picGallery.innerHTML = '<img src="img/img1.JPG" alt="">';
+     picGallery.innerHTML = '<img src="img/img1.jpg" alt="">';
      
+    // Article
+    createHTML('div', "article");
 
     // Weather
     createHTML('div', "weather");
