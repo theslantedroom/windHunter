@@ -57,8 +57,8 @@
      <img src="img/img4.png" alt="">
      <img src="img/img5.png" alt=""> 
      <img src="img/img6.png" alt="">     
-     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iure a vero rerum officiis harum. Porro nesciunt aliquid deserunt hic, voluptatibus, quibusdam nulla eveniet totam tempora aut, optio iste sequi autem eius cumque consectetur.</p>`;
-     createHTML('div', "gallerytext");
+     <p class="gallerytext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iure a vero rerum officiis harum. Porro nesciunt aliquid deserunt hic, voluptatibus, quibusdam nulla eveniet totam tempora aut, optio iste sequi autem eius cumque consectetur.</p>`;
+
 
 
 

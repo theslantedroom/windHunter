@@ -10,9 +10,31 @@ body {
 	background: rgb(114, 114, 114);
 }
 
+.banner{
+	overflow: hidden;
+	color: #27dfbd;
+	font-family: 'Trade Winds', cursive;
+	font-size: 85px;
+	text-align: center;
+	background-position:center top;
+	background-image: url('../img/banner3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid#00bf9a;
+	height: 15vw;
+	max-height: 150px;
+	margin: auto;
+	padding: 3px;
+	transition: all 200ms;
+}
+.mouseOverBanner{
+	color: #b5e0d8;
+	font-size: 60px;
+}
+
 .navSingleButton{
 	color: #114b3f;
-	font-size: 30px;
+	font-size: 60px;
 	background: -moz-linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgba(255,214,0,1) 100%);
 	background: -webkit-linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgba(255,214,0,1) 100%);
 	background: linear-gradient(0deg, rgba(234,242,255,1) 0%, rgba(0,191,154,1) 0%, rgba(255,214,0,1) 100%);
@@ -21,7 +43,7 @@ body {
 	top: 0px;
 	text-align: center;
 	padding: 20px;
-	height: 80px;
+	height: 120px;
 	transition: all 200ms;
 }
 .navSingleButton:hover{
@@ -38,7 +60,7 @@ body {
 
 .navItem{
 	color: rgb(253, 227, 98);
-	font-size: 20px;
+	font-size: 60px;
 	background-color:#00bf9a;
 	position: sticky;
 	overflow: hidden;
@@ -47,7 +69,7 @@ body {
 	padding: 0px;
 	height: 0px;
 	transition: all 200ms;
-	line-height: 2;
+	line-height: 1.2;
 	cursor: pointer;
 }
 .navItem:hover{
@@ -56,47 +78,26 @@ body {
 
 .navSingleButtonOpen{
 	background:#00bf9a;
-	height: 50px;
+	height: 70px;
 }
 
-.banner{
-	overflow: hidden;
-	color: #27dfbd;
-	font-family: 'Trade Winds', cursive;
-	font-size: 50px;
-	text-align: center;
-	background-position:center top;
-	background-image: url('../img/banner3.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	border: 1px solid#00bf9a;
-	height: 15vw;
-	max-height: 100px;
-	margin: auto;
-	padding: 3px;
-	transition: all 200ms;
-}
-.mouseOverBanner{
-	color: #b5e0d8;
-	font-size: 60px;
-}
+
 
 .picGallery{
 	width: 100%;
-
-
-	/* line-height: 0; */
 	-webkit-column-count: 2;
 	-webkit-column-gap:   0px;
 	-moz-column-count:    2;
 	-moz-column-gap:      0px;
 	column-count:         2;
 	column-gap:           0px;  
-
 }
 .picGallery img{
 	width: 100%;
 	height: auto;
+}
+.gallerytext{
+	font-size: 20px;
 }
 .weather{
 	display: flex;
