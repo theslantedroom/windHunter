@@ -50,7 +50,14 @@
     // PICS
      createHTML('div', "picGallery");
      const picGallery = document.getElementsByClassName("picGallery")[0];
-     picGallery.innerHTML = '<img src="img/img1.jpg" alt=""><img src="img/img2.jpg" alt=""><img src="img/img3.jpg" alt=""><img src="img/img4.jpg" alt=""><img src="img/img5.jpg" alt="">     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iure a vero rerum officiis harum. Porro nesciunt aliquid deserunt hic, voluptatibus, quibusdam nulla eveniet totam tempora aut, optio iste sequi autem eius cumque consectetur.</p>';
+     picGallery.innerHTML = `
+     <img src="img/img1.jpg" alt="">
+     <img src="img/img2.png" alt="">
+     <img src="img/img3.png" alt="">
+     <img src="img/img4.png" alt="">
+     <img src="img/img5.png" alt=""> 
+     <img src="img/img6.png" alt="">     
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iure a vero rerum officiis harum. Porro nesciunt aliquid deserunt hic, voluptatibus, quibusdam nulla eveniet totam tempora aut, optio iste sequi autem eius cumque consectetur.</p>`;
      createHTML('div', "gallerytext");
 
 
