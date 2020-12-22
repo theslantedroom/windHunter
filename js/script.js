@@ -31,9 +31,9 @@
         newElement.innerText = text;
       };
 
-    createMenuItem('nav', "navItem", 'About');
-    createMenuItem('nav', "navItem", 'Photos');
-    createMenuItem('nav', "navItem", 'Shop');
+    createMenuItem('nav', "navItem", 'Merry Christmas');
+    createMenuItem('nav', "navItem", 'and');
+    createMenuItem('nav', "navItem", 'Happy New Year');
 
     navSingleButton.innerHTML = '<span><i class="fas fa-bars"></i> <i class="fas fa-wind"></i></span>';
     navSingleButton.addEventListener('click', function(){
@@ -57,7 +57,7 @@
      <img src="img/img4.png" alt="">
      <img src="img/img5.png" alt=""> 
      <img src="img/img6.png" alt="">     
-     <p class="gallerytext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iure a vero rerum officiis harum. Porro nesciunt aliquid deserunt hic, voluptatibus, quibusdam nulla eveniet totam tempora aut, optio iste sequi autem eius cumque consectetur.</p>`;
+     <p class="gallerytext">Merry Christmas Dad. Thought I'd get some practise making websites and make you an e-card for Christmas. Love you. Looking forward to your next video. </p>`;
 
 
 
